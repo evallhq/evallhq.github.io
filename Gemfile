@@ -11,6 +11,3 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
-
-# Required on Windows so tzinfo can find timezone definitions.
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
