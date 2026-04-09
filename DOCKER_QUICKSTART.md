@@ -16,6 +16,12 @@ Run in repository root:
 docker compose up
 ```
 
+Quick restart (recommended after editing `_config.yml`):
+
+```powershell
+docker compose restart jekyll-site
+```
+
 Then open:
 
 - http://localhost:4000

@@ -199,6 +199,15 @@
   }
 }
 
+.sidebar .author__desktop .author__desktop-text {
+  display: inline-block;
+  max-width: calc(100% - 2.1em);
+  vertical-align: top;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  line-height: 1.35;
+}
+
 .author__pronouns {
   margin: 0;
 
@@ -210,6 +219,7 @@
 
 .author__bio {
   margin: 0;
+  line-height: 1.35;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -305,6 +315,10 @@
 
   li {
     white-space: nowrap;
+  }
+
+  li.author__desktop {
+    white-space: normal;
   }
 
   a {
